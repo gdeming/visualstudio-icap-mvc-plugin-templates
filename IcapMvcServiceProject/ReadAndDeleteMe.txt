@@ -1,10 +1,11 @@
 ===============================================================================
                       Using the ICAP MVC Service template                      
 ===============================================================================
-1. Add the service's AppId to Platform\GlobalConstants\GlobalConst.cs.
-2. Update the AppId in $safeprojectname$Plugin.cs.
-3. Rename the project's language resource files using the service's AppId.
+1. Append ".and" to the service's project name using Solution Explorer.
+2. Add the service's AppId to Platform\GlobalConstants\GlobalConst.cs.
+3. Update the AppId in $safeprojectname$Plugin.cs.
+4. Rename the project's language resource files using the service's AppId.
        Content\en\en00000000.resx -> Content\en\en<AppId>.resx
        Content\es\es00000000.resx -> Content\es\es<AppId>.resx
        Content\fr\fr00000000.resx -> Content\fr\fr<AppId>.resx
-4. Search for "TODO" globally and add, update, or delete code as required.
+5. Search for "TODO" globally and add, update, or delete code as required.
