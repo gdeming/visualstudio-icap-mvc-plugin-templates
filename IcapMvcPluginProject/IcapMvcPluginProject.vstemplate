@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>ICAP MVC Plugin for Xamarin</Name>
-    <Description>An ICAP MVC plugin project for Xamarin/Android</Description>
+    <Name>ICAP MVC Plugin for AND, WCE, WIN, WMO</Name>
+    <Description>An ICAP MVC plugin project for Android/Xamarin, Windows CE, Windows and Windows Mobile</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType></ProjectSubType>
     <SortOrder>0</SortOrder>
