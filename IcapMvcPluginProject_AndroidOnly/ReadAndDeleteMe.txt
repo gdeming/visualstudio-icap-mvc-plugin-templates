@@ -1,0 +1,13 @@
+===============================================================================
+                      Using the ICAP MVC Plugin template                      
+===============================================================================
+1. Add the plugin's AppId to Platform\GlobalConstants\GlobalConst.cs.
+2. Update the AppId in $safeprojectname$Plugin.cs.
+3. Rename the project's language resource files using the plugin's AppId.
+       Content\en\en00000000.resx -> Content\en\en<AppId>.resx
+       Content\es\es00000000.resx -> Content\es\es<AppId>.resx
+       Content\fr\fr00000000.resx -> Content\fr\fr<AppId>.resx
+4. Search for "TODO" globally and add, update, or delete code as required.
+5. Add the plugin to ...\Src\Presentation\Presentation\Assets\Plugins.xml.
+6. Consider moving the service interface to the PlatformSdk project.
+7. Deleting the I*Service.cs if the service isn't implemented.

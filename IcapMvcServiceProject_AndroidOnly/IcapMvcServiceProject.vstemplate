@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ICAP MVC Service for AND</Name>
+    <Description>An ICAP MVC service-only plugin project for Android/Xamarin only</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>0</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Service</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>PeopleNet.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.csproj" File="Plugin.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Plugin.cs">Plugin.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Model.cs">PluginModel.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="I$safeprojectname$Service.cs">IPluginService.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ReadAndDeleteMe.txt" OpenInEditor="true">ReadAndDeleteMe.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PeopleNet.ico">PeopleNet.ico</ProjectItem>
+      <Folder Name="Content" TargetFolderName="Content">
+      </Folder>
+      <Folder Name="Content\en" TargetFolderName="Content\en">
+        <ProjectItem ReplaceParameters="true" TargetFileName="en00000000.resx">en00000000.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Content\es" TargetFolderName="Content\es">
+        <ProjectItem ReplaceParameters="true" TargetFileName="es00000000.resx">es00000000.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Content\fr" TargetFolderName="Content\fr">
+        <ProjectItem ReplaceParameters="true" TargetFileName="fr00000000.resx">fr00000000.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+      </Folder>
+      <Folder Name="Resources\layout" TargetFolderName="Resources\layout">
+      </Folder>
+      <Folder Name="Resources\layout-port" TargetFolderName="Resources\layout-port">
+      </Folder>
+      <Folder Name="Resources\values" TargetFolderName="Resources\values">
+      </Folder>
+      <Folder Name="Resources\values-sw600dp" TargetFolderName="Resources\values-sw600dp">
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
