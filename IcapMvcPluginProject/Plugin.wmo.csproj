@@ -120,6 +120,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Resources\Resource.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="ReadAndDeleteMe.txt" />
   </ItemGroup>
   <ItemGroup>
